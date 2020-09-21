@@ -11,7 +11,6 @@ const stripePromise = loadStripe(process.env.PUBLISHABLE_KEY);
 // don't want to load more than you have to
 
 const Layout = ({ children, title }) => {
-    alert('getting-started');
   return (
     <>
         <GlobalStyles />
